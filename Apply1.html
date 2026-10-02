@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> UniverSity of Embu Application Form </title>
+    </head>
+    <body>
+        <h1> Populate This Form to Apply </h1>
+        <form action="application.php", method="post">
+            <p>
+                <label> Last Name </label>
+                <input type="text", name="LastName">
+            </p>
+            <p>
+                <label> First Name </label>
+                <input type="text", name="FirstName">
+            </p>
+            <p>
+                <label> Middle Name </label>
+                <input type="text", name="MiddleName">
+            </p>
+            <p>
+                <label>Your Email</label>
+                <input type="email", name="Email">
+            </p>
+            <!--Drop Down list of courses -->
+            <p>
+                <label> Select A course </label>
+                <select name="Courses", >
+                    <option selected> Bachelor of Business Information Technology </option>
+                    <option> Bachelor of Science in Information Technology </option>
+                    <option>Bachelor of Science in Computer Science </option>
+                    <option>Bachelor of Law LLB </option>
+                </select>
+            </p>
+            <!-- Radio Buttons for Mode of study  -->
+             <p>
+                <label>Mode of Study </label> <br>
+                <input type="radio", id="e-Learning", name="mode", value="e-learning">
+                <label for="e-Learning">Online/ e-Learning </label>
+                <input type="radio", id="Physical", name="mode", value="Physical">
+                <label for="Physical">Physical/On-Campus </label>
+                <input type="radio", id="Blended", name="mode", value="Blended">
+                <label for="Blended"> Blended Learning </label>
+             </p>
+             <!--Checkboxes to select sporting Activities -->
+             <p> 
+                <label> Select Sporting Activties you would like to participate in </label> <br>
+                <input type="checkbox", id="FootBall", name="Sports", value="FootBall">
+                <label for="FootBall"> FootBall/ Soccer </label>
+                <input type="checkbox", id="Swimming", name="Sports", value="Swimming">
+                <label for="Swimming"> Swimming </label>
+                <input type="checkbox", id="VolleyBall", name="Sports", value="VolleyBall">
+                <label for="VolleyBall"> VolleyBall </label>
+             </p>
+             <!--Text Area for user to put a brief description -->
+             <p>
+                <label> Describe Yourself Briefly </label> <br>
+                <textarea id="textarea1", name="description", rows="10", columns="25"></textarea>
+             </p>
+             <!--Buttons to submit and reset/refresh the fields -->
+             <p>
+                <input type="submit", value="Submit Application ">
+                <input type="reset", value="Clear Fields"
+             </p>
+             <p>
+                <a href="web1.html"> Go back to Home Page </a>
+             </p>
+        </form>
+    </body>
+</html>
