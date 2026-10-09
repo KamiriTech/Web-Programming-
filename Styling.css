@@ -1,0 +1,52 @@
+/*Styling our first web page */
+*{
+    box-sizing: border-box;
+    margin:auto;
+    padding: 0;
+}
+
+/*Styling the body of the webpage*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    color:black;
+    max-width: 900px;
+    line-height: 1.6;
+    margin: 30px auto;
+    padding: 20px;
+}
+/* H1- Main page Titles*/
+h1{
+    color:darkgreen;
+    font-size: 2.2rem;
+}
+/* H2- Subsections Stsyling*/
+h2{
+    color:darkgreen;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 12px;   
+}
+h3{
+    color:burlywood;
+    font-size:1.2rem;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+/*Styling Department Table*/
+table{
+    Width:100%;
+    margin:20px 0;
+    background-color:white;
+    border-radius: 6px;
+    overflow:hidden;
+}
+th, td{
+    padding: 12px 15px ;
+    text-align: left;
+}
+th{
+    background-color: darkcyan;
+    color:aliceblue;
+    font-weight: 600;
+}
